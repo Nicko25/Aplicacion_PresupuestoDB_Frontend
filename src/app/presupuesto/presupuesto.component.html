@@ -1,0 +1,23 @@
+<div class="presupuesto">
+  <div class="presupuesto_titulo">
+    <h5>Presupuesto Disponible:</h5>
+  </div>
+
+  <div class="presupuesto_valor">+ {{ balancePresupuesto() | currency:'ARS' : '$':'1.2-2'}}</div>
+
+  <div class="presupuesto_ingreso limpiarEstilos">
+      <div class="presupuesto_ingreso--texto">Ingresos</div>
+      <div class="right">
+          <div class="presupuesto_ingreso--valor">+ {{totalIngresos() | currency:'ARS' : '$':'1.2-2'}}</div>
+          <div class="presupuesto_ingreso--porcentaje">{{porcentajeTotal2() | currency:'' : '':'1.2-2'}}%</div>
+      </div>
+  </div>
+
+  <div class="presupuesto_egreso limpiarEstilos">
+      <div class="presupuesto_egreso--text">Egresos</div>
+      <div class="right limpiarEstilos">
+          <div class="presupuesto_egreso--valor">- {{totalEgresos() | currency:'ARS' : '$':'1.2-2'}}</div>
+          <div class="presupuesto_egreso--porcentaje">{{porcentajeTotal() | currency:'' : '':'1.2-2'}}%</div>
+      </div>
+  </div>
+</div>
