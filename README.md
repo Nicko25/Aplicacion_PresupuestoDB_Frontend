@@ -4,9 +4,14 @@ This project was generated with [Angular CLI] version 13.2.4, **it is only the F
 
 ![Example](https://github.com/Nicko25/Aplicacion_PresupuestoDB_Frontend_Angular/blob/master/src/assets/example.png?raw=true "Title")
 
-## Backend Support
 
+## Backend Support
 The Application obtains the data from a Database through a backend build. To get more details of the backend go to [this GitHub link](https://github.com/Nicko25/Aplicacion_PresupuestoDB_Backtend_JavaEE)
+
+<p align="center">
+  <img src="https://github.com/Nicko25/Aplicacion_PresupuestoDB_Frontend_Angular/blob/master/src/assets/java-icon-mini.png" />
+  <img src="https://github.com/Nicko25/Aplicacion_PresupuestoDB_Frontend_Angular/blob/master/src/assets/mysql-icon-mini.png" />
+</p>
 
 ## Development serve
 
